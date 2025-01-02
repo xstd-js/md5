@@ -5,6 +5,7 @@
 
 ## @xstd/md5
 
+An `md5` function in javascript.
 
 ## 📦 Installation
 
@@ -13,3 +14,14 @@ yarn add @xstd/md5
 # or
 npm install @xstd/md5 --save
 ```
+
+
+## API
+
+```ts
+function md5(input: string): string;
+```
+
+Performs a `md5` hash on a string. The result is a 32 characters length lowercase hexadecimal string.
+
+**`md5` is considered weak and should be used only for compatibility with old devices or protocols.**
